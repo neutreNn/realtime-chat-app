@@ -113,6 +113,11 @@ form .name-details .field:last-child {
     cursor: pointer;
 }
 
+.form form .field i.active::before {
+    color: #333;
+    content: "\f070";
+}
+
 .form .link {
     text-align: center;
     margin: 10px 0;
